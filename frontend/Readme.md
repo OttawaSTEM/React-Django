@@ -1,3 +1,6 @@
+# Frontend Live Demo
+[Live Demo](https://ottawastem.github.io/React-Django/)
+
 # Run Frontend commands in frontend directory
 ## Prettier format
 Install "Prettier - Code formatter" extension and set "Editor: Default Formatter" to "Prettier - Code Formatter" in VSCode
