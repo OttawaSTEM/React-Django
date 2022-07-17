@@ -74,13 +74,7 @@ export default function DashboardSidebar({ isOpenSidebar, onCloseSidebar }) {
             <Avatar src={userInfo ? userInfo.avatar : BlankPofile} alt="photoURL" />
             <Box sx={{ ml: 2 }}>
               <Typography variant="subtitle2" sx={{ color: 'text.primary' }}>
-                {userInfo ? (
-                  <>
-                    {userInfo.name} 
-                  </>
-                ) : (
-                  'John Doe'
-                )}
+                {userInfo ? <>{userInfo.name}</> : 'John Doe'}
               </Typography>
             </Box>
           </AccountStyle>

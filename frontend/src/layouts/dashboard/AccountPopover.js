@@ -57,7 +57,7 @@ export default function AccountPopover() {
       navigate('/login', { replace: true });
       dispatch({ type: LOGOUT });
     }
-  }, [navigate, userInfo]);   // eslint-disable-line react-hooks/exhaustive-deps
+  }, [navigate, userInfo]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const logoutHandler = () => {
     dispatch(logout());
